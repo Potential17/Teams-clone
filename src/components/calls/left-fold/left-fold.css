@@ -1,0 +1,74 @@
+.leftFold {
+  height: 100%;
+  background: #ebebeb;
+  box-shadow: 5px 0px 6px #dbdbdb, -5px 0px 6px #dbdbdb;
+  width: 100%;
+  z-index: -1;
+}
+
+.leftFold-menu {
+  padding: 16px 0px 0px 16px;
+  height: 47%;
+}
+
+.leftFold-dialer {
+  padding: 16px;
+  background-color: white;
+  height: 47%;
+  position: relative;
+}
+
+.menu-items {
+  margin-top: 16px;
+}
+
+.menu-label {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.dialer-label {
+  font-weight: 600;
+  color: #616161;
+  font-size: 20px;
+}
+
+.dialer-search {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin: 8px 0px;
+}
+.dialer-suggested {
+  width: 100%;
+}
+.dialer-search input {
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+}
+.suggested-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #616161;
+}
+
+.suggested-list {
+  margin-top: 6px;
+  width: 100%;
+}
+
+.dialer-bottom {
+  position: absolute;
+  bottom: 16px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+.dialer-bottom-icon {
+  background-color: #ebebeb;
+  padding: 8px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0px 4px;
+  color: #d0d0d0;
+}

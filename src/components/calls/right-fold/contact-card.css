@@ -1,0 +1,35 @@
+.contact-card {
+  background-color: white;
+  width: 28%;
+  height: 120px;
+  margin: 16px 8px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.contact-avatar {
+  height: 80px;
+}
+
+.contact-top {
+  display: flex;
+}
+.contact-icons {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+  width: 40%;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.contact-title {
+  font-weight: 600;
+}
+.contact-subtitle {
+  font-size: 12px;
+  margin: 6px 0px;
+}
